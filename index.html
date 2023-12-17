@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="icon" href="images/icons8-survey-50.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="info">
+        <p class="Survey">Survey Form<br></p>
+            <p class="detail">Give Us Opportunity To Get Better</p>
+        
+    </div>
+    <div class="main_div">
+        <div class="form">
+          <form action="mailto:gameyboy02@gmail.com" method="post" class="form_main">
+            <label for="name" id="l_name">Name</label>
+            <input type="text" id="name"><br><br>
+            <label for="email" id="l_email">Email</label>
+            <input type="email" id="email" required><br><br>
+            <label for="age" id="l_age">Age</label>
+            <input type="number" min="18" max="100" id="age" required><br><br>
+            <label for="role" id="l_role" ><div id="role_div"> Which option best describes<br> your current role?</div></label>
+            <select id="role">
+                
+                <option>Student</option>
+                <option>Teacher</option>
+            </select><br><br>
+            <label for="refer" id="refer">How likely is that you recommend us to a friend</label>
+            <input type="radio" id="like1" name="like" >
+            <label for="like1">Definitely</label><br>
+            <input type="radio" id="like2" name="like" >
+            <label for="like2">Maybe</label><br>  
+            <input type="radio" id="like3" name="like" >
+            <label for="like3">Not sure</label><br><br>
+
+            <label for="things" id="things">Things should be improved in the Future</label>
+            <input type="checkbox" id="check1">
+            <label for="check1">Front End Projects</label><br>
+            <input type="checkbox" id="check2">
+            <label for="check2">Back End Projects</label><br>
+            <input type="checkbox" id="check3">
+            <label for="check3">Data Virtualisation</label><br><br>
+
+            <label id="message"> Your Message</label>
+            <input type="text" id="messageBox" name="messageBox" size="50"><br>
+
+
+
+            <button id="btn">Submit</button>
+
+
+
+
+
+
+
+          </form>
+        </div>
+
+    </div>
+
+    
+</body>
+</html>

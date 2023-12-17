@@ -1,0 +1,155 @@
+body{
+    background-image: url("images/shubham-dhage-pb5w9WU1goA-unspla.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+   
+
+    opacity: 2;
+
+}
+
+.main_div{
+    background:white;
+    height: 1000px;
+    width: 800px;
+    opacity: 0.5;
+    margin-top: 100px;
+    margin-left: 280px;
+}
+.info{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    grid-template-rows:70px ;
+    
+}
+.Survey{
+    padding-left: 200px;
+    color: white;
+    font-size: 60px;
+
+}
+.detail{
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+}
+.form{
+    margin-left: 200px;
+    padding-top: 50px;
+}
+form{
+    opacity: 1.5;
+}
+#name{
+    margin-left: 100px;
+    border-radius: 10px;
+    height:20px;
+}
+#email{
+    margin-left: 100px;
+    border-radius: 10px;
+    height:20px;
+}
+#age{
+    margin-left: 112px;
+    border-radius: 10px;
+    height:20px;
+    width: 150px;
+}
+#role{
+    margin-left: 13px;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    
+}
+
+#message{
+    margin-left: 50px;
+    border-radius: 10px;
+    height:20px;
+}
+#l_role{
+    margin-left: -200px;
+    font-size: 25px;
+    font-weight: bold;
+    color: red;
+}
+#l_name{
+    font-size: 25px;
+    font-weight: bold;
+    color: red;
+}
+#l_email{
+    font-size: 25px;
+    font-weight: bold;
+    color: red;
+}
+#l_age{
+    font-size: 25px;
+    font-weight: bold;
+    color: red;
+}
+#refer{
+    display: inline-block;
+    width: 283px;
+    margin-left: -134px;
+    font-size: 25px;
+    font-weight: bold;
+    color: red;
+}
+
+#like1{
+    margin-left: 12px;
+}
+#like2{
+    margin-left: 165px;
+}
+#like3{
+    margin-left: 165px;
+}
+#role_div{
+    display: inline-block;
+    width: 300px;
+    margin-left: 46px;
+}
+#things{
+    display: inline-block;
+    width: 287px;
+    margin-left: -138px;
+    font-size: 25px;
+    font-weight: bold;
+    color: red;
+}
+#check1{
+    margin-left: 11px;
+}
+#check2{
+    margin-left: 164px;
+}
+#check3{
+    margin-left: 164px;
+}
+#message{
+    margin-left: -36px;
+    font-size: 25px;
+    font-weight: bold;
+    color: red;
+}
+#messageBox{
+    margin-left: 45px;
+    height: 20px;
+    border-radius: 10px;
+    
+    
+}
+#btn{
+    margin-top: 60px;
+    margin-left: 200px;
+    width:91px;
+    height:43px;
+    background-color: aquamarine;
+    cursor: pointer;
+}
